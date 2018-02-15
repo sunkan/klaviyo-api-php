@@ -1,16 +1,10 @@
 # Klaviyo API PHP Library
 
-[![Build Status](https://travis-ci.org/GollyGood/klaviyo-api-php.svg?branch=develop)](http://travis-ci.org/GollyGood/klaviyo-api-php)
-[![Stories in Ready](https://badge.waffle.io/GollyGood/klaviyo-api-php.png?label=ready&title=Ready)](http://waffle.io/GollyGood/klaviyo-api-php)
-
+[![Build Status](https://travis-ci.org/sunkan/klaviyo-api-php.svg?branch=develop)](http://travis-ci.org/sunkan/klaviyo-api-php)
 ## Documentation
 
-* [Documentation](http://gollygood.github.io/klaviyo-api-php/docs/master)
-* [API Documentation](http://gollygood.github.io/klaviyo-api-php/api/master/)
-
-## In action
-
-* [Drupal Klaviyo API Integration](https://www.drupal.org/project/klaviyo)
+* [Documentation](http://sunkan.github.io/klaviyo-api-php/docs/master)
+* [API Documentation](http://sunkan.github.io/klaviyo-api-php/api/master/)
 
 ## Supporting Organizations
 
