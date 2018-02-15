@@ -1,6 +1,6 @@
 # Klaviyo API PHP Library
 
-[![Build Status](https://travis-ci.org/sunkan/klaviyo-api-php.svg?branch=develop)](http://travis-ci.org/sunḱan/klaviyo-api-php)
+[![Build Status](https://travis-ci.org/sunkan/klaviyo-api-php.svg?branch=develop)](http://travis-ci.org/sunkan/klaviyo-api-php)
 ## Documentation
 
 * [Documentation](http://sunkan.github.io/klaviyo-api-php/docs/master)
