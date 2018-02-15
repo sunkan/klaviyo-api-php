@@ -1,9 +1,13 @@
 {
-    "name": "gollygood/klaviyo-api-php",
+    "name": "sunkan/klaviyo-api-php",
     "description": "Klaviyo email marketing service API wrapper.",
     "type": "library",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Andreas Sundqvist",
+            "email": "open-source@sunkan.se"
+        },
         {
             "name": "GollyGood Software",
             "email": "info@gollygoodsoftware.com"
