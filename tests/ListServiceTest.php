@@ -139,15 +139,14 @@ class ListServiceTest extends KlaviyoTestCase
 
     public function getListService(&$container, $responses)
     {
-        $client = $this->getClient($container, $responses);
-        $api = new KlaviyoApi($client, $this->apiKey);
+        $api = $this->getApi($this->apiKey, [], $container, $responses);
         return new ListService($api);
     }
 
     public function testGetListPage()
     {
         $list_manager = $this->getMultiPageListService();
-        $lists = $list_manager->getListsFromPage($list_manager->getResourcePath('list'));
+        $lists = $list_manager->getListsFromPage();
 
         $this->assertCount(2, $lists, 'There should be two records.');
 
@@ -194,11 +193,15 @@ class ListServiceTest extends KlaviyoTestCase
         $this->assertEquals($listZero, $new_list);
 
         $request = $container[0]['request'];
+
         $this->assertSame('POST', $request->getMethod());
 
         $fields = array();
         parse_str(urldecode((string) $request->getBody()), $fields);
-        $this->assertSame($this->responseListZero['name'], $fields['name']);
+        $this->assertSame(
+            $this->responseListZero['name'],
+            $fields['name']
+        );
         $this->assertSame('list', $fields['list_type']);
         $this->assertSame($this->apiKey, $fields['api_key']);
     }
